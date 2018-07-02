@@ -1,0 +1,85 @@
+
+.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.navbar-brand .menu-icon {
+    padding-right: 10px;
+}
+
+li.nav-item {
+    margin-right: 20px;
+}
+
+li.nav-item:active,
+li.nav-item:focus,
+li.nav-item:hover {
+
+}
+
+.mr-auto, .mx-auto {
+    margin-right: inherit !important;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .show > .nav-link, 
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #a7a7a7;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .show > .nav-link:hover, 
+.navbar-dark .navbar-nav .active > .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link.show:hover, 
+.navbar-dark .navbar-nav .nav-link.active:hover {
+    color: #fff;
+}
+
+.navigation-wrapper {
+
+}
+
+.navigation-wrapper #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    color: #fff;
+    transition: all 0.3s;
+    float: left;
+}
+
+.navigation-wrapper.hidden #sidebar {
+    margin-left: -250px;
+}
+
+.navigation-wrapper #sidebar .sidebar-header {
+    padding: 20px;
+}
+
+.navigation-wrapper #sidebar ul.components {
+    padding: 20px 0;
+}
+
+.navigation-wrapper #sidebar ul {
+    margin-right: 20px;
+}
+
+.navigation-wrapper #sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #8a8a8a;
+}
+
+.navigation-wrapper #sidebar ul li a:hover {
+    background: #f7f7f7;
+    border-right: 4px solid #0d8cbf;
+    text-decoration: none;
+}
