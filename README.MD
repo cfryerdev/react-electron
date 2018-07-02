@@ -4,4 +4,5 @@ This is a react 16.4 project that can be ran as either a website or an electron 
 # What technologies does it use?
 - React 16.4
 - ReactStrap (Bootstrap 4)
+- Font Awesome 5
 - Electron
